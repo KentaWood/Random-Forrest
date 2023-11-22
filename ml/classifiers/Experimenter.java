@@ -13,7 +13,7 @@ public class Experimenter {
         // 10 cross validated dataset with randomization
         CrossValidationSet data = new CrossValidationSet(wineDataset, 10, true);
 
-        for(int j = 12; j < 16; j++){
+        for(int j = 0 ; j < 16; j++){
 
             System.out.println("Depth Limit: " + j);
 
